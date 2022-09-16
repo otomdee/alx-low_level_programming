@@ -3,8 +3,8 @@
 
 /**
  * mul - multiplies two ints
- * @a - first int
- * @b - second
+ * @a: first int
+ * @b: second
  * Return: result
  */
 int mul(int a, int b)
