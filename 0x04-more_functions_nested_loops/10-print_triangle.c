@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-/** print_triangle - print t
+/**
+ * print_triangle - print t
  * @size: size
  */
 void print_triangle(int size)
@@ -14,7 +15,7 @@ void print_triangle(int size)
 	{
 		int i, j;
 
-		for (i = 1; i <= size; j++)
+		for (i = 1; i <= size; i++)
 		{
 			for (j = i; j < size; j++)
 			{
