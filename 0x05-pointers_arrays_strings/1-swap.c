@@ -2,7 +2,7 @@
 
 /**
  * swap_int - swaps values
- * @a: point 
+ * @a: point
  * @b: points
  */
 
