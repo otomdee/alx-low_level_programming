@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- **_memset - fills mem
+ *_memset - fills mem
  * @s: mem area
  * @b: char
  * @n: num of times to copy
@@ -11,12 +11,10 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
-
-	for (i = 0; i < n; i++)
-	{i
-		*(s + i) = b;
+	while
+	{
+		s[n - 1] = b;
+		n--;
 	}
-
 	return (s);
 }
